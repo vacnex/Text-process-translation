@@ -41,7 +41,7 @@ namespace Text_process_translation
             {
                 string path = openFileDialog1.FileName;
                 StreamReader sr = new StreamReader(path);
-                int countTrans = 0,countUnTrans = 0, num = 0;
+                int countTrans = 0,countUnTrans = 0;
                 
                 if (new FileInfo(path).Length != 0)
                 {
